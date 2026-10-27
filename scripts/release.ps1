@@ -3,7 +3,7 @@ param(
     [string]$KeyStore,
     [Parameter(Mandatory = $true)]
     [string]$PasswordFile,
-    [string]$KeyAlias = 'chess-tip'
+    [string]$KeyAlias = 'knightlingo'
 )
 
 $ErrorActionPreference = 'Stop'
@@ -37,9 +37,9 @@ try {
     $unsignedApk = Join-Path $releaseDir $metadata.elements[0].outputFile
     $outputDir = Join-Path $projectDir "artifacts\release-$version"
     New-Item -ItemType Directory -Path $outputDir -Force | Out-Null
-    $apkName = "ChessTip-$version-arm64-v8a.apk"
+    $apkName = "Knightlingo-$version-arm64-v8a.apk"
     $signedApk = Join-Path $outputDir $apkName
-    $alignedApk = Join-Path $releaseDir 'chess-tip-aligned-unsigned.apk'
+    $alignedApk = Join-Path $releaseDir 'knightlingo-aligned-unsigned.apk'
 
     & $zipalign -f -P 16 4 $unsignedApk $alignedApk
     if ($LASTEXITCODE -ne 0) { throw 'APK alignment failed.' }

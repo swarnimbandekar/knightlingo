@@ -30,7 +30,7 @@ try {
             if ($LASTEXITCODE -ne 0) { throw "Build failed with exit code $LASTEXITCODE" }
         }
         'install' { Invoke-Adb -d install -r '.\app\build\outputs\apk\debug\app-debug.apk' }
-        'launch' { Invoke-Adb -d shell am start -W --display 0 -n 'com.juhyeon.chesstip/.MainActivity' }
+        'launch' { Invoke-Adb -d shell am start -W --display 0 -n 'io.github.swarnimbandekar.knightlingo/.MainActivity' }
         'logs' { Invoke-Adb -d logcat -v time 'ChessTip:I' 'AndroidRuntime:E' '*:S' }
     }
 }

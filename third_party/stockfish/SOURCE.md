@@ -1,6 +1,6 @@
 # Stockfish 19 build provenance
 
-Chess Tip uses Stockfish 19 as a separate local UCI process. Its executable is packaged as `app/src/main/jniLibs/arm64-v8a/libstockfish.so` so Android installs it in the app's native library directory.
+Knightlingo uses Stockfish 19 as a separate local UCI process. Its executable is packaged as `app/src/main/jniLibs/arm64-v8a/libstockfish.so` so Android installs it in the app's native library directory.
 
 ## Upstream inputs
 
@@ -15,7 +15,7 @@ Chess Tip uses Stockfish 19 as a separate local UCI process. Its executable is p
 - Network SHA-256: `1a298aa575a085434d29027978dc36867fe9c5bcea9376654b7a8eba1e52dfc2`
 - License: GPL version 3 or later, as stated in the upstream source headers. The upstream `Copying.txt` and `AUTHORS` files accompany this record.
 
-The executable supplied in the upstream archive is not used in Chess Tip. It was rebuilt locally to align every ELF LOAD segment to 16 KiB.
+The executable supplied in the upstream archive is not used in Knightlingo. It was rebuilt locally to align every ELF LOAD segment to 16 KiB.
 
 The GitHub release also includes a `ChessTip-<version>-stockfish-source.tar.gz` archive with the unchanged Stockfish sources, the exact NNUE network embedded in the binary, license files, and the local build helper. It does not include signing keys or the Android NDK.
 

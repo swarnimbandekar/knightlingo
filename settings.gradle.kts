@@ -17,5 +17,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ChessTip"
+rootProject.name = "Knightlingo"
 include(":app")

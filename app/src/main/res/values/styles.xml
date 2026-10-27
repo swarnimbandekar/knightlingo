@@ -5,9 +5,9 @@
         <item name="android:windowLightStatusBar">false</item>
         <item name="android:windowLightNavigationBar">false</item>
         <item name="android:windowActionModeOverlay">true</item>
-        <item name="android:windowBackground">#101E24</item>
-        <item name="android:colorAccent">#B0ED7A</item>
-        <item name="android:navigationBarColor">#101E24</item>
-        <item name="android:statusBarColor">#101E24</item>
+        <item name="android:windowBackground">#131F24</item>
+        <item name="android:colorAccent">#58CC02</item>
+        <item name="android:navigationBarColor">#131F24</item>
+        <item name="android:statusBarColor">#131F24</item>
     </style>
 </resources>

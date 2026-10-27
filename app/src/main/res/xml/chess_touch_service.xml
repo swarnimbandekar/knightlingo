@@ -9,4 +9,4 @@
     android:isAccessibilityTool="false"
     android:notificationTimeout="100"
     android:packageNames="com.duolingo"
-    android:settingsActivity="com.juhyeon.chesstip.MainActivity" />
+    android:settingsActivity="io.github.swarnimbandekar.knightlingo.MainActivity" />

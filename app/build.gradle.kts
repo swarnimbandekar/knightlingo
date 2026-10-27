@@ -3,16 +3,16 @@ plugins {
 }
 
 android {
-    namespace = "com.juhyeon.chesstip"
+    namespace = "io.github.swarnimbandekar.knightlingo"
     compileSdk = 36
     buildToolsVersion = "36.0.0"
 
     defaultConfig {
-        applicationId = "com.juhyeon.chesstip"
+        applicationId = "io.github.swarnimbandekar.knightlingo"
         minSdk = 34
         targetSdk = 36
-        versionCode = 22
-        versionName = "0.4.6"
+        versionCode = 23
+        versionName = "1.0.0"
         ndk { abiFilters += "arm64-v8a" }
     }
 

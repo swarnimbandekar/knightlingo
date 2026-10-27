@@ -1,4 +1,4 @@
 <resources>
-    <string name="touch_service_label">Chess Tip 자동 대국</string>
-    <string name="touch_service_description">직접 켠 자동 대국에서 듀오링고 체스판의 출발 칸과 도착 칸을 탭합니다. 오스카·친구·랜덤 대국에서 판과 내 차례가 확인될 때만 입력하며, 결과 창이나 다른 화면에서는 켜진 채 기다립니다. Tip의 자동 대국 정지 버튼으로 언제든 끌 수 있습니다. 화면 정보는 폰 안에서만 처리합니다.</string>
+    <string name="touch_service_label">Knightlingo Auto-play</string>
+    <string name="touch_service_description">When Auto-play is enabled, taps the source and destination squares on the Duolingo chessboard. It only enters moves when the board and your turn are confirmed in Oscar, friends, or random games, and waits on result or other screens. Stop it anytime with Tip’s Stop Auto-play button. Screen information is processed only on the phone.</string>
 </resources>

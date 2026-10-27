@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Themed-icon silhouette (Android 13+): knight, base and sparkle in one tint. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <group android:scaleX="0.62" android:scaleY="0.62" android:translateX="21.8" android:translateY="24.9">
+        <path android:fillColor="#FFFFFFFF" android:pathData="M33,72 L67,72 C69.5,58 69,44 63,33 C59,26 54,22 51,20.5 L49,11 L42.5,19.5 C34.5,23 28.5,30.5 25,39.5 L22.5,47 C21.8,51 24.8,54.2 29,53.3 L40.5,49.2 C37.5,56 32.5,62.5 33,72 Z" />
+        <path android:fillColor="#FFFFFFFF" android:pathData="M29,73 L71,73 A4,4 0 0 1 75,77 L75,79 A4,4 0 0 1 71,83 L29,83 A4,4 0 0 1 25,79 L25,77 A4,4 0 0 1 29,73 Z" />
+        <path android:fillColor="#FFFFFFFF" android:pathData="M74,14 L76.6,21.4 L84,24 L76.6,26.6 L74,34 L71.4,26.6 L64,24 L71.4,21.4 Z" />
+    </group>
+</vector>

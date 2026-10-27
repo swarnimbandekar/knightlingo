@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Knightlingo – Chess Tips for Duolingo",
+  "short_name": "Knightlingo",
+  "version": "1.0.0",
+  "description": "Best-move arrows and Auto-play for Duolingo chess, powered by Stockfish on your computer. Not affiliated with Duolingo.",
+  "minimum_chrome_version": "116",
+  "icons": { "16": "icons/16.png", "32": "icons/32.png", "48": "icons/48.png", "128": "icons/128.png" },
+  "action": { "default_title": "Knightlingo · show or hide the dock", "default_icon": { "16": "icons/16.png", "32": "icons/32.png" } },
+  "permissions": ["offscreen", "storage"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [
+    { "matches": ["https://www.duolingo.com/*"], "js": ["content.js"], "run_at": "document_idle" }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'"
+  }
+}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Status-bar icon: the knight silhouette alone (Android tints it). -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp" android:height="24dp"
+    android:viewportWidth="100" android:viewportHeight="100">
+    <path android:fillColor="#FFFFFFFF" android:pathData="M33,72 L67,72 C69.5,58 69,44 63,33 C59,26 54,22 51,20.5 L49,11 L42.5,19.5 C34.5,23 28.5,30.5 25,39.5 L22.5,47 C21.8,51 24.8,54.2 29,53.3 L40.5,49.2 C37.5,56 32.5,62.5 33,72 Z" />
+    <path android:fillColor="#FFFFFFFF" android:pathData="M29,73 L71,73 A4,4 0 0 1 75,77 L75,79 A4,4 0 0 1 71,83 L29,83 A4,4 0 0 1 25,79 L25,77 A4,4 0 0 1 29,73 Z" />
+</vector>
