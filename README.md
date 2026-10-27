@@ -105,4 +105,10 @@ See [extension/README.md](extension/README.md) for how the extension maps onto t
 - [Stockfish](https://stockfishchess.org) (GPLv3): native build on Android, [stockfish.js](https://github.com/nmrugg/stockfish.js) in the extension. Licence and source notes in [third_party/stockfish](third_party/stockfish).
 - [chesslib](https://github.com/bhlangonijr/chesslib) (Android) and [chess.js](https://github.com/jhlywa/chess.js) (extension) for move rules.
 
+## License
+
+Knightlingo is free software: you can redistribute it and/or modify it under the terms of the
+[GNU General Public License v3.0](LICENSE) or (at your option) any later version. Copyright © 2026
+Swarnim Bandekar and contributors.
+
 Duolingo is a trademark of Duolingo, Inc. Knightlingo is not affiliated with Duolingo.
